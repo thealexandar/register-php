@@ -10,7 +10,7 @@ $reg = $users->register();
             <div class="header text-center mb-5">
                 <h3>Please Register</h3>
             </div>
-            <form method="post" action="register.php" enctype="multipart/form-data">
+            <form method="post" action="" enctype="multipart/form-data">
                 <div class="form-group">
                   <input type="text" name="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter full name" value=<?php echo $reg['name']; ?>>
                   <small id="emailHelp" class="form-text text-muted error"><?php echo $reg['name_err']; ?></small>

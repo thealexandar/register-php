@@ -106,6 +106,7 @@ class Users {
                 if($this->user->regis($data)){
                     //die("SUCCESS!");
                     header('Location: login.php');
+                    exit();
                     //$data['register_succ'] = "Success! You can now login.";
 
 

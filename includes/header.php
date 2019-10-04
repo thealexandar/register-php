@@ -1,5 +1,5 @@
 <?php
-
+ob_start();
 require "classes/Users.php";
 session_start();
 $users = new Users;

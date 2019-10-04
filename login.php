@@ -8,7 +8,7 @@ $log = $users->login();
     <div class="header text-center mb-5">
         <h3>Login</h3>
     </div>
-    <form method="post" action="login.php" enctype="multipart/form-data">
+    <form method="post" action="" enctype="multipart/form-data">
         <div class="form-group">
             <input type="email" name="email" class="form-control" id="exampleInputPassword1" placeholder="Enter email">
             <small id="emailHelp" class="form-text text-muted error"><?php echo $log['email_err']; ?></small>
