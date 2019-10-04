@@ -1,12 +1,10 @@
+<?php include_once 'includes/header.php'; ?>
 <?php
-require "classes/Users.php";
 
-$users = new Users;
 $reg = $users->register();
 
-print_r($reg);
 ?>
-<?php include_once 'includes/header.php'; ?>
+
 
         <div class="register">
             <div class="header text-center mb-5">

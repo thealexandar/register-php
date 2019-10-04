@@ -1,3 +1,9 @@
+<?php
+
+require "classes/Users.php";
+session_start();
+$users = new Users;
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
